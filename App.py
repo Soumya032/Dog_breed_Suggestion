@@ -1,7 +1,5 @@
 from flask import Flask,render_template,request
-import plotly.express as px
 import pandas as pd
-import numpy as np
 app=Flask(__name__)
 
 df = pd.read_csv('C:\\Users\\soumy\\Downloads\\akc-data-latest.csv')
